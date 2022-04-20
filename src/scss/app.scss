@@ -12,12 +12,16 @@
 /* Fonts */
 @import 'base/fonts';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,100;1,300&display=swap');
+
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
 /* Vendor */
+@import url(base/global);
 
 /* Components */
+@import 'main.css';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
